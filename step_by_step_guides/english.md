@@ -130,7 +130,7 @@ pip install -r requirements.txt #Optionally use pip3 install
 Then, execute the script with the following commands:
 
 ```
-python ~/Documents/cde_first_step/cde_cli_jobs/00_pyspark-sql.py cde_jobs_api_url cdp_workload_username
+python ~/Documents/cde_first_step/cde_cli_jobs/00_cde_cli_install.py cde_jobs_api_url cdp_workload_username
 ```
 
 
