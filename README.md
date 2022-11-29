@@ -1,4 +1,4 @@
-# First Steps with Cloudera Data Engineering
+# First Step with Cloudera Data Engineering
 
 ## Summary
 
@@ -32,7 +32,7 @@ In this tutorial we will create a basic batch CDE pipeline using the Lending Clu
 
 ## Step by Step Instructions
 
-Detailes instructions in English are provided in the [step_by_step_guides](https://github.com/pdefusco/CDE_First_Steps/tree/CDE-workshop-updates/step_by_step_guides) folder.
+Detailes instructions in English are provided in the [step_by_step_guides](https://github.com/pdefusco/CDE_First_Step/tree/CDE-workshop-updates/step_by_step_guides) folder.
 
 
 ## Next Steps

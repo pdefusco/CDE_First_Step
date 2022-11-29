@@ -2,7 +2,7 @@
 
 ## Objective
 
-This guide provides step by step instructions for the CDE tutorial "First Steps with Cloudera Data Engineering".
+This guide provides step by step instructions for the CDE tutorial "First Step with Cloudera Data Engineering".
 
 
 ## Project Overview
@@ -33,7 +33,7 @@ Clone this github repository locally in your "Documents" folder. Open a terminal
 ```
 cd ~/Documents
 mkdir cde_first_steps
-git clone https://github.com/pdefusco/CDE_First_Steps.git
+git clone https://github.com/pdefusco/CDE_First_Step.git
 ```
 
 Next, open the "cde_examples.ini" file located in the "cde_manual_jobs" folder and edit lines 1-3 with your credentials. While you can set your own prefix at line 2, you may have to obtain your Cloud Storage location and Region from your CDP Admin if you don't know them.
@@ -192,6 +192,6 @@ To learn more about migrating Spark and Airflow to CDE, please refer to the Migr
 
 ### Conclusion
 
-Congratulations for making it to the end of this tutorial! We hope you enjoyed using CDE first hand. We recommend visiting the [Next Steps Section](https://github.com/pdefusco/CDE_First_Steps#next-steps) to continue your journey with CDE.
+Congratulations for making it to the end of this tutorial! We hope you enjoyed using CDE first hand. We recommend visiting the [Next Steps Section](https://github.com/pdefusco/CDE_First_Step#next-steps) to continue your journey with CDE.
 
 ![alt text](../img/cde_thankyou.png)
