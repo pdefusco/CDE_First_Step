@@ -150,7 +150,7 @@ cde spark submit --conf "spark.pyspark.python=python3" ~/Documents/cde_first_ste
 This command will allow you to obtain information related to the above spark job. Make sure to replace the id flag with the id provided when you executed the last script e.g. 199.
 
 ```
-cde run describe --id
+cde run describe --id 199
 ```
 
 ###### Review the Output:
@@ -158,7 +158,7 @@ cde run describe --id
 This command shows the logs for the above job. Make sure to replace the id flag with the id provided when you executed the last script.  
 
 ```
-cde run logs --type "driver/stdout" --id
+cde run logs --type "driver/stdout" --id 199
 ```
 
 ###### Create a CDE Resource:
