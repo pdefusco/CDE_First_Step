@@ -32,7 +32,7 @@ Clone this github repository locally in your "Documents" folder. Open a terminal
 
 ```
 cd ~/Documents
-mkdir cde_first_steps
+mkdir cde_first_step
 git clone https://github.com/pdefusco/CDE_First_Step.git
 ```
 
@@ -106,9 +106,33 @@ To validate that the job is running, open the job from the "Jobs" tab and naviga
 
 You can use the CDE CLI or API to execute Spark and Airflow jobs remotely rather than via the CDE UI as shown up to this point. In general, the CDE CLI is recommended over the UI when running spark submits from a local computer. The API is instead recommended when integrating CDE Spark Jobs or Airflow Jobs (or both) with 3rd party orchestration systems. For example you can use GitLab CI to build CDE Pipelines across multiple Virtual Clusters. For a detailed example, please reference [GitLab2CDE](https://github.com/pdefusco/Gitlab2CDE).
 
+##### Manual CLI Installation
+
 You can download the CDE CLI to your local machine following the instructions provided in the [official documentation](https://docs.cloudera.com/data-engineering/cloud/cli-access/topics/cde-cli.html).
 
+##### Automated CLI Installation
+
 Alternatively, you can use the "00_cde_cli_install.py" automation script located in the cde_cli_jobs folder. This will install the CDE CLI in your local machine if you have a Mac.
+
+First, create a Python virtual environment and install the requirements.
+
+```
+#Create
+python3 -m venv venv
+
+#Activate
+source venv/bin/activate
+
+#Install requirements
+pip install -r requirements.txt #Optionally use pip3 install
+```
+
+Then, execute the script with the following commands:
+
+```
+python ~/Documents/cde_first_step/cde_cli_jobs/00_pyspark-sql.py cde_jobs_api_url cdp_workload_username
+```
+
 
 ##### CLI Steps
 
