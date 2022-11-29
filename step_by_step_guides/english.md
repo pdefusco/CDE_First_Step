@@ -142,7 +142,7 @@ python ~/Documents/cde_first_step/cde_cli_jobs/00_cde_cli_install.py JOBS_API_UR
 This command will run the script as a simple Spark Submit. This is slightly different from creating a CDE Job of type Spark as the Job definition will not become reusable.
 
 ```
-cde spark submit --conf "spark.pyspark.python=python3" ~/Documents/cde_first_step/cde_manual_jobs/01_pyspark-sql.py
+cde spark submit --conf "spark.pyspark.python=python3" ~/Documents/cde_first_step/cde_cli_jobs/01_pyspark-sql.py
 ```
 
 ###### Check Job Status:
