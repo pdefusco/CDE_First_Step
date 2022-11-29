@@ -32,7 +32,7 @@ In this tutorial we will create a basic batch CDE pipeline using the Lending Clu
 
 ## Step by Step Instructions
 
-Detailes instructions in English are provided in the [step_by_step_guides](https://github.com/pdefusco/CDE_First_Step/tree/main/step_by_step_guides) folder.
+Detailed instructions in English are provided in the [step_by_step_guides](https://github.com/pdefusco/CDE_First_Step/tree/main/step_by_step_guides) folder.
 
 
 ## Next Steps
