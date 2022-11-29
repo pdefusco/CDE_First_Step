@@ -33,6 +33,7 @@ Clone this github repository locally in your "Documents" folder. Open a terminal
 ```
 cd ~/Documents
 mkdir cde_first_step
+cd cde_first_step
 git clone https://github.com/pdefusco/CDE_First_Step.git
 ```
 
@@ -130,7 +131,7 @@ pip install -r requirements.txt #Optionally use pip3 install
 Then, execute the script with the following commands:
 
 ```
-python ~/Documents/cde_first_step/cde_cli_jobs/00_cde_cli_install.py cde_jobs_api_url cdp_workload_username
+python ~/Documents/cde_first_step/cde_cli_jobs/00_cde_cli_install.py JOBS_API_URL CDP_WORKLOAD_USER
 ```
 
 
@@ -141,7 +142,7 @@ python ~/Documents/cde_first_step/cde_cli_jobs/00_cde_cli_install.py cde_jobs_ap
 This command will run the script as a simple Spark Submit. This is slightly different from creating a CDE Job of type Spark as the Job definition will not become reusable.
 
 ```
-cde spark submit --conf "spark.pyspark.python=python3" /home/cdsw/data_extraction_scripts/01_pyspark-sql.py
+cde spark submit --conf "spark.pyspark.python=python3" ~/Documents/cde_first_step/cde_manual_jobs/01_pyspark-sql.py
 ```
 
 ###### Check Job Status:
@@ -173,7 +174,7 @@ cde resource create --name "my_CDE_Resource"
 This command uploads the "01_pyspark-sql.py" script into the CDE Resource.
 
 ```
-cde resource upload --local-path "~/Documents/cde_first_steps/cde_cli_jobs/01_pyspark-sql.py" --name "my_CDE_Resource"
+cde resource upload --local-path "~/Documents/cde_first_step/cde_cli_jobs/01_pyspark-sql.py" --name "my_CDE_Resource"
 ```
 
 ###### Validate CDE Resource:
