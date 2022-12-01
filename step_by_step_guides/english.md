@@ -94,7 +94,7 @@ Open the "04_Airflow_DAG.py" file and familiarize yourself with the code.
 * At lines 33, 39 and 45 the job_name parameter is set to the CDE Spark Job name used in Section 1.
 * Finally, task dependencies are specified at line 51.
 
-CDE does not limit you to using the CDEJobRunOperator. First of all, Cloudera supports the CDWOperator to orchestrate SQL queries in CDW. Additionally, other operators including Python, HTTP, and Bash are available. If you want to learn more about Airflow in CDE, please reference [Using CDE Airflow](https://github.com/pdefusco/Using_CDE_Airflow).
+CDE does not limit you to using the CDEJobRunOperator. Cloudera supports the CDWOperator to orchestrate SQL queries in CDW. Additionally, other operators including Python, HTTP, and Bash are available. If you want to learn more about Airflow in CDE, please reference [Using CDE Airflow](https://github.com/pdefusco/Using_CDE_Airflow).
 
 ##### Creating the CDE Airflow Job
 
