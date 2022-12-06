@@ -18,7 +18,7 @@ The project includes three sections:
 
 To reproduce the tutorial you will need:
 
-* A CDE Virtual Cluster in Azure, AWS, OCP or Cloudera ECS.
+* A CDE Virtual Cluster in Azure, AWS, OCP or Cloudera ECS. Either Spark 2 or 3 ok.
 * Your Public or Private Cloud Storage location (e.g. "s3a://bucket" in AWS).
 * Your CDP Workload User and Password.
 * This guide assumes that your user has already been granted permission to the CDP Environment. If not, please check with your CDP Admin to ensure you have been given the proper CDE User Roles and ID Broker Mappings.
@@ -60,7 +60,7 @@ Data Exploration Job:
   * Python Version: "Python 3"
 
 KPI Reporting Job:
-  * Name: "02_KPI_Reporting:
+  * Name: "02_KPI_Reporting"
   * Application File: "02_KPI_Reporting.py"
   * Python Version: "Python 3"
 
@@ -105,7 +105,7 @@ To validate that the job is running, open the job from the "Jobs" tab and naviga
 
 ### Section 3 - Creating and Scheduling Spark Jobs via the CDE CLI
 
-You can use the CDE CLI or API to execute Spark and Airflow jobs remotely rather than via the CDE UI as shown up to this point. In general, the CDE CLI is recommended over the UI when running spark submits from a local computer. The API is instead recommended when integrating CDE Spark Jobs or Airflow Jobs (or both) with 3rd party orchestration systems. For example you can use GitLab CI to build CDE Pipelines across multiple Virtual Clusters. For a detailed example, please reference [GitLab2CDE](https://github.com/pdefusco/Gitlab2CDE).
+You can use the CDE CLI or API to execute Spark and Airflow jobs remotely rather than via the CDE UI as shown up to this point. In general, the CDE CLI is recommended over the UI when running spark submits from a local machine. The API is instead recommended when integrating CDE Spark Jobs or Airflow Jobs (or both) with 3rd party orchestration systems. For example you can use GitLab CI to build CDE Pipelines across multiple Virtual Clusters. For a detailed example, please reference [GitLab2CDE](https://github.com/pdefusco/Gitlab2CDE).
 
 ##### Manual CLI Installation
 
